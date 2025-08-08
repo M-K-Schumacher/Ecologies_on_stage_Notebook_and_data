@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000063" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gottsched und Gellert</title>
+        <title type="sub">Charakterlustspiel in fünf Akten</title>
+        <author>
+          <persName>
+            <forename>Heinrich</forename>
+            <surname>Laube</surname>
+          </persName>
+          <idno type="wikidata">Q77470</idno>
+          <idno type="pnd">118570080</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:rfct.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Heinrich Laube: Gesammelte Werke in fünfzig Bänden. Unter Mitwirkung von Albert
+              Hänel herausgegeben von Heinrich Hubert Houben, Leipzig: Max Hesses Verlag,
+              1908–09.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="schladritz" sex="MALE">
+            <persName>Schladritz</persName>
+          </person>
+          <person xml:id="gottsched" sex="MALE" ana="http://www.wikidata.org/entity/Q76442">
+            <persName>Gottsched</persName>
+          </person>
+          <person xml:id="frau_gottsched" sex="FEMALE" ana="http://www.wikidata.org/entity/Q65863">
+            <persName>Frau Gottsched</persName>
+          </person>
+          <person xml:id="bolza" sex="MALE" ana="http://www.wikidata.org/entity/Q15977488">
+            <persName>Graf Bolza</persName>
+          </person>
+          <person xml:id="gottfried" sex="MALE">
+            <persName>Gottfried</persName>
+          </person>
+          <person xml:id="gellert" sex="MALE" ana="http://www.wikidata.org/entity/Q60584">
+            <persName>Gellert</persName>
+          </person>
+          <person xml:id="cato" sex="MALE">
+            <persName>Cato</persName>
+          </person>
+          <person xml:id="wilhelmine" sex="FEMALE">
+            <persName>Wilhelmine</persName>
+          </person>
+          <person xml:id="graefin" sex="FEMALE">
+            <persName>Gräfin</persName>
+          </person>
+          <person xml:id="katharina" sex="FEMALE">
+            <persName>Katharina</persName>
+          </person>
+          <person xml:id="siegmund" sex="MALE">
+            <persName>Siegmund</persName>
+          </person>
+          <person xml:id="prinz" sex="MALE" ana="http://www.wikidata.org/entity/Q50993">
+            <persName>Prinz Heinrich</persName>
+          </person>
+          <person xml:id="zastrow" sex="MALE">
+            <persName>Zastrow</persName>
+          </person>
+          <person xml:id="wedell" sex="MALE">
+            <persName>Wedell</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="associated_with" active="#schladritz" passive="#gottsched"/>
+            <relation name="associated_with" active="#wedell" passive="#prinz"/>
+            <relation name="parent_of" active="#zastrow" passive="#wilhelmine"/>
+            <relation name="parent_of" active="#graefin" passive="#wilhelmine"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-12-16">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1846">
+        <desc/>
+      </event>
+      <event type="premiere" when="1845">
+        <desc/>
+      </event>
+      <event type="written" when="1845">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000063" passive="http://www.wikidata.org/entity/Q56183293"/>
+    </listRelation>
+  </standOff>
+  <text></text>
+</TEI>
