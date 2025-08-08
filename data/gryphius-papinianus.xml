@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000551" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Großmütiger Rechtsgelehrter oder Sterbender Aemilius Paulus
+          Papinianus</title>
+        <title type="sub">Trauerspiel</title>
+        <author>
+          <persName>
+            <forename>Andreas</forename>
+            <surname>Gryphius</surname>
+          </persName>
+          <idno type="wikidata">Q77214</idno>
+          <idno type="pnd">118543032</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:p7hs.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Andreas Gryphius: Großmütiger Rechtsgelehrter oder Sterbender Aemilius Paulus
+              Papinianus. Text der Erstausgabe besorgt von Ilse-Marie Barth, mit einem Nachwort von
+              Werner Keller, Stuttgart: Philipp Reclam jun., 1965 [Universal-Bibliothek Nr.
+              8935].</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="papinianus" sex="MALE">
+            <persName>Papinianus</persName>
+          </person>
+          <person xml:id="caemmerer" sex="MALE">
+            <persName>Cämmerer</persName>
+          </person>
+          <person xml:id="plautia" sex="FEMALE">
+            <persName>Plautia</persName>
+          </person>
+          <personGrp xml:id="reyen_der_hofe-junckern_papiniani" sex="MALE">
+            <name>Reyen der Hofe-Junckern Papiniani</name>
+          </personGrp>
+          <person xml:id="laetus" sex="MALE">
+            <persName>Laetus</persName>
+          </person>
+          <person xml:id="bassianus" sex="MALE">
+            <persName>Bassianus</persName>
+          </person>
+          <person xml:id="flavius" sex="MALE">
+            <persName>Flavius</persName>
+          </person>
+          <person xml:id="geta" sex="MALE">
+            <persName>Geta</persName>
+          </person>
+          <person xml:id="julia" sex="FEMALE">
+            <persName>Julia</persName>
+          </person>
+          <personGrp xml:id="reyen_der_jungfern_und_cammer-diner" sex="UNKNOWN">
+            <name>Reyen der Jungfern und Cammer-Diner</name>
+          </personGrp>
+          <personGrp xml:id="reyen_dess_frauenzimmers" sex="FEMALE">
+            <name>Reyen deß Frauenzimmers</name>
+          </personGrp>
+          <person xml:id="thrasullus" sex="MALE">
+            <persName>Thrasullus</persName>
+          </person>
+          <person xml:id="themis" sex="FEMALE">
+            <persName>Themis</persName>
+          </person>
+          <person xml:id="alecto" sex="FEMALE">
+            <persName>Alecto</persName>
+          </person>
+          <person xml:id="tisiphone" sex="FEMALE">
+            <persName>Tisiphone</persName>
+          </person>
+          <person xml:id="megaera" sex="FEMALE">
+            <persName>Megaera</persName>
+          </person>
+          <person xml:id="gerechtigkeit" sex="UNKNOWN">
+            <persName>Gerechtigkeit</persName>
+          </person>
+          <person xml:id="haubtmann_1" sex="MALE">
+            <persName>1. Haubtmann</persName>
+          </person>
+          <person xml:id="cleander" sex="MALE">
+            <persName>Cleander</persName>
+          </person>
+          <person xml:id="sabinus" sex="MALE">
+            <persName>Sabinus</persName>
+          </person>
+          <person xml:id="haubtmann_2" sex="MALE">
+            <persName>2. Haubtmann</persName>
+          </person>
+          <personGrp xml:id="reyen_der_hofe-leute" sex="MALE">
+            <name>Reyen der Hofe-Leute</name>
+          </personGrp>
+          <person xml:id="papiniani_sohn" sex="MALE">
+            <persName>Papiniani Sohn</persName>
+          </person>
+          <person xml:id="macrinus" sex="MALE">
+            <persName>Macrinus</persName>
+          </person>
+          <personGrp xml:id="haubtleute" sex="MALE">
+            <name>Haubtleute</name>
+          </personGrp>
+          <person xml:id="geist_severi" sex="MALE">
+            <persName>Geist Severi</persName>
+          </person>
+          <person xml:id="eugenia" sex="FEMALE">
+            <persName>Eugenia</persName>
+          </person>
+          <person xml:id="hostilius" sex="MALE">
+            <persName>Hostilius</persName>
+          </person>
+          <person xml:id="haubtmann_3" sex="MALE">
+            <persName>3. Haubtmann</persName>
+          </person>
+          <person xml:id="scherge" sex="MALE">
+            <persName>Scherge</persName>
+          </person>
+          <personGrp xml:id="reyen_dess_roemischen_frauenzimmers" sex="FEMALE">
+            <name>Reyen deß römischen Frauenzimmers</name>
+          </personGrp>
+          <person xml:id="diner_1" sex="MALE">
+            <persName>1. Diner</persName>
+          </person>
+          <personGrp xml:id="reyen_der_diner" sex="MALE">
+            <name>Reyen der Diner</name>
+          </personGrp>
+          <person xml:id="diner_2" sex="MALE">
+            <persName>2. Diner</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#papinianus #plautia"/>
+            <relation name="parent_of" active="#papinianus" passive="#papiniani_sohn"/>
+            <relation name="parent_of" active="#hostilius #eugenia" passive="#papinianus"/>
+            <relation name="associated_with" active="#diner_1 #diner_2" passive="#papinianus"/>
+            <relation name="siblings" mutual="#bassianus #geta"/>
+            <relation name="spouses" mutual="#julia #geist_severi"/>
+            <relation name="parent_of" active="#julia" passive="#geta"/>
+            <relation name="associated_with" active="#laetus #flavius #cleander #haubtmann_1 #haubtmann_2 #haubtmann_3" passive="#bassianus"/>
+            <relation name="associated_with" active="#thrasullus" passive="#julia"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2021-12-23">(ff) convert from source</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1659">
+        <desc/>
+      </event>
+      <event type="premiere" when="1660">
+        <desc/>
+      </event>
+      <event type="written" when="1659">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000551" passive="http://www.wikidata.org/entity/Q42194033"/>
+    </listRelation>
+  </standOff>
+  <text></text>
+</TEI>

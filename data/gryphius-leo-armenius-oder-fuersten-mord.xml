@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000546" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Leo Armenius oder Fürsten-Mord</title>
+        <title type="sub">Trauer-spiel</title>
+        <author>
+          <persName>
+            <forename>Andreas</forename>
+            <surname>Gryphius</surname>
+          </persName>
+          <idno type="wikidata">Q77214</idno>
+          <idno type="pnd">118543032</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:p878.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Andreas Gryphius: Werke in drei Bänden mit Ergänzungsband. Herausgegeben von
+              Hermann Palm, Sonderausgabe mit Genehmigung des Verlages Anton Hiersemann (Stuttgart),
+              Darmstadt: Wissenschaftliche Buchgesellschaft, 1961 [= Nachdruck der Ausgabe Tübingen
+              1878–1884]</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="michael" sex="MALE">
+            <persName>Michael</persName>
+          </person>
+          <person xml:id="crambe" sex="MALE">
+            <persName>Crambe</persName>
+          </person>
+          <person xml:id="erster_verschworener" sex="MALE">
+            <persName>Erster Verschworener</persName>
+          </person>
+          <person xml:id="zweiter_verschworener" sex="MALE">
+            <persName>Zweiter Verschworener</persName>
+          </person>
+          <person xml:id="leo" sex="MALE">
+            <persName>Leo</persName>
+          </person>
+          <person xml:id="exabolius" sex="MALE">
+            <persName>Exabolius</persName>
+          </person>
+          <person xml:id="nicander" sex="MALE">
+            <persName>Nicander</persName>
+          </person>
+          <personGrp xml:id="trabanten" sex="MALE">
+            <name>Trabanten</name>
+          </personGrp>
+          <personGrp xml:id="reyen_der_hoeflinge" sex="MALE">
+            <name>Reyen der Höflinge</name>
+          </personGrp>
+          <person xml:id="erster_richter" sex="MALE">
+            <persName>Erster Richter</persName>
+          </person>
+          <person xml:id="zweiter_richter" sex="MALE">
+            <persName>Zweiter Richter</persName>
+          </person>
+          <person xml:id="dritter_richter" sex="MALE">
+            <persName>Dritter Richter</persName>
+          </person>
+          <person xml:id="vierter_richter" sex="MALE">
+            <persName>Vierter Richter</persName>
+          </person>
+          <person xml:id="fuenfter_richter" sex="MALE">
+            <persName>Fünfter Richter</persName>
+          </person>
+          <person xml:id="sechster_richter" sex="MALE">
+            <persName>Sechster Richter</persName>
+          </person>
+          <person xml:id="siebenter_richter" sex="MALE">
+            <persName>Siebenter Richter</persName>
+          </person>
+          <person xml:id="achter_richter" sex="MALE">
+            <persName>Achter Richter</persName>
+          </person>
+          <person xml:id="neunter_richter" sex="MALE">
+            <persName>Neunter Richter</persName>
+          </person>
+          <person xml:id="zehnter_richter" sex="MALE">
+            <persName>Zehnter Richter</persName>
+          </person>
+          <personGrp xml:id="richter" sex="MALE">
+            <name>Richter</name>
+          </personGrp>
+          <person xml:id="theodosia" sex="FEMALE">
+            <persName>Theodosia</persName>
+          </person>
+          <person xml:id="papias" sex="MALE">
+            <persName>Papias</persName>
+          </person>
+          <personGrp xml:id="reyen_der_spielleute_und_saenger" sex="MALE">
+            <name>Reyen der Spielleute und Sänger</name>
+          </personGrp>
+          <person xml:id="tarasii_geist" sex="MALE">
+            <persName>Tarasii Geist</persName>
+          </person>
+          <person xml:id="waechter" sex="MALE">
+            <persName>Wächter</persName>
+          </person>
+          <person xml:id="dritter_verschworener" sex="MALE">
+            <persName>Dritter Verschworener</persName>
+          </person>
+          <person xml:id="jamblichius" sex="MALE">
+            <persName>Jamblichius</persName>
+          </person>
+          <person xml:id="der_geist" sex="MALE">
+            <persName>Der Geist</persName>
+          </person>
+          <person xml:id="vierter_verschworener" sex="MALE">
+            <persName>Vierter Verschworener</persName>
+          </person>
+          <person xml:id="diener" sex="MALE">
+            <persName>Diener</persName>
+          </person>
+          <person xml:id="sechster_verschworener" sex="MALE">
+            <persName>Sechster Verschworener</persName>
+          </person>
+          <person xml:id="fuenfter_verschworener" sex="MALE">
+            <persName>Fünfter Verschworener</persName>
+          </person>
+          <personGrp xml:id="jungfrauen" sex="FEMALE">
+            <name>Jungfrauen</name>
+          </personGrp>
+          <personGrp xml:id="priester" sex="MALE">
+            <name>Priester</name>
+          </personGrp>
+          <person xml:id="phronesis" sex="FEMALE">
+            <persName>Phronesis</persName>
+          </person>
+          <person xml:id="oberster_priester" sex="MALE">
+            <persName>Oberster Priester</persName>
+          </person>
+          <person xml:id="bothe" sex="MALE">
+            <persName>Bothe</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#leo #theodosia"/>
+            <relation name="associated_with" active="#exabolius" passive="#leo"/>
+            <relation name="associated_with" active="#phronesis" passive="#theodosia"/>
+            <relation name="associated_with" active="#diener" passive="#crambe"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2021-11-25">(ff) convert from source</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1650">
+        <desc/>
+      </event>
+      <event type="premiere" when="1651">
+        <desc/>
+      </event>
+      <event type="written" when="1646">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000546" passive="http://www.wikidata.org/entity/Q1818468"/>
+    </listRelation>
+  </standOff>
+  <text></text>
+</TEI>
